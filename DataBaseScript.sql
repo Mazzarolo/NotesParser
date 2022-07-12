@@ -10,6 +10,8 @@ create table estabelecimento (
 
 insert into estabelecimento (nomeEst) values ("Frassul"); 
 
+select count(*) from estabelecimento;
+
 select * from estabelecimento;
 
 create table produto (
@@ -23,4 +25,8 @@ create table produto (
 
 insert into produto values (33, "Batata", "5", "Frassul");
 
+select count(*) from produto;
+
 select * from produto;
+
+drop database NotasFiscais;
